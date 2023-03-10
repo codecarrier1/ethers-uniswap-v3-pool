@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/units": "^5.7.0",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@hookform/resolvers": "^2.9.8",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/walletconnect-connector": "^6.2.13",
+    "axios": "^0.27.2",
+    "ethers": "^5.7.1",
+    "next": "^12.2.3",
+    "postcss": "^8.4.14",
+    "react": "^17.0.2",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.35.0",
+    "react-outside-click-handler": "^1.3.0",
+    "react-picker": "^1.2.17",
+    "react-select": "^5.4.0",
+    "react-toastify": "^9.1.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^18.0.15",
+    "@types/react-datepicker": "^4.4.2",
+    "@types/react-dom": "^17.0.1",
+    "postcss-preset-env": "^7.7.2",
+    "tailwindcss": "^3.1.7",
+    "typescript": "4.0"
+  }
+}
