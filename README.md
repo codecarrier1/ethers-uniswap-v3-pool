@@ -6,7 +6,7 @@ This is created by using React.js, Next.js, TypeScript, TailwindCSS, and Ethers.
 
 Deployed here.
 
-https://volume-fi-danny-frontend-assignment.vercel.app/
+https://ethers-uniswap-v3-pool.vercel.app/
 
 # Steps to run
 
