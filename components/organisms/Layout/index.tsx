@@ -8,7 +8,7 @@ type Props = {
   title?: string;
 };
 
-const Layout = ({ children, title = "Volumn Finance Test" }: Props) => (
+const Layout = ({ children, title = "" }: Props) => (
   <div className='px-5 py-4 bg-black font-worksans h-screen'>
     <Head>
       <title>{title}</title>

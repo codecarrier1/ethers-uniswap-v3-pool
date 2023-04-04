@@ -21,11 +21,7 @@ const TokenSelect: React.FC<ITokenSelectProps> = ({
         onClick={() => setShowDropdown(!showDropdown)}
       >
         <div className='w-3 h-5 relative'>
-          <Image
-            src={TOKENS[selectedToken].icon}
-            layout='fill'
-            alt='VolumeFi'
-          />
+          <Image src={TOKENS[selectedToken].icon} layout='fill' alt='' />
         </div>
         {TOKENS[selectedToken].symbol}
       </div>
@@ -42,11 +38,7 @@ const TokenSelect: React.FC<ITokenSelectProps> = ({
                 key={index}
               >
                 <div className='w-3 h-5 relative'>
-                  <Image
-                    src={TOKENS[token].icon}
-                    layout='fill'
-                    alt='VolumeFi'
-                  />
+                  <Image src={TOKENS[token].icon} layout='fill' alt='' />
                 </div>
                 {TOKENS[token].symbol}
               </div>

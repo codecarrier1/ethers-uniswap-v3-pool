@@ -28,7 +28,7 @@ const Account = () => {
           {CHAINS[chainId] ? (
             <>
               <div className='w-2 h-3 relative'>
-                <Image src='/icons/ethereum.svg' layout='fill' alt='VolumFi' />
+                <Image src='/icons/ethereum.svg' layout='fill' alt='' />
               </div>
               Goerli
               <div className='w-2 h-2 rounded-full bg-primary bg-opacity-50 p-0.5'>
